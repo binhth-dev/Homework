@@ -22,6 +22,7 @@ elif bai_tap == "3":
     while True:
         try:
             n = input()
+            n = int(n)
             if n & n - 1 == 0:
                 print("Đây là số chẵn")
             else:
