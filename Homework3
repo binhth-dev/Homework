@@ -1,0 +1,14 @@
+k = input("Bài số: ")
+
+match k:
+    case "1":
+        dtb = float(input())
+        match dtb:
+            case d if d >= 8.0:
+                print("Gioi")
+            case d if 8.0 > d >= 6.5:
+                print("Kha")
+            case d if 6.5 > d >= 5.0:
+                print("Trung binh")
+            case _:
+                print("Yeu")
